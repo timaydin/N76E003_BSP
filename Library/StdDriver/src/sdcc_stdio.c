@@ -49,7 +49,7 @@ int putchar (int c)  {
 //
 // This function returns a character from the UART.
 //-----------------------------------------------------------------------------
-char getchar (void)
+int getchar (void)
 {
    char c;
 
